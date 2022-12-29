@@ -3,7 +3,7 @@ package com.cherrypick.githubactions;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@SpringBootApplication
+@SpringBootApplication
 public class GithubactionhelloworldApplication {
 
 	public static void main(String[] args) {
