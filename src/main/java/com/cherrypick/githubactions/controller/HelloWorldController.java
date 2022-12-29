@@ -10,7 +10,7 @@ public class HelloWorldController {
 
 	@GetMapping("/hello-world")
 	public String helloWorld(){
-	return "Githib Actions Hello World"
+	return "Githib Actions Hello World";
 	}
 
 }
