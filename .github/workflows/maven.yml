@@ -29,6 +29,9 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: tomcat deploy
+      run: curl -v -u admin:admin -T /home/runner/work/githubaction-maven-project/githubaction-maven-project/target/githubactionhelloworld-0.0.1-SNAPSHOT.jar
+      
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
